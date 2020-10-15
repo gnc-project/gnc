@@ -32,14 +32,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/node"
+	"github.com/gnc-project/gnc/p2p"
+	"github.com/gnc-project/gnc/p2p/enode"
+	"github.com/gnc-project/gnc/p2p/simulations"
+	"github.com/gnc-project/gnc/p2p/simulations/adapters"
+	"github.com/gnc-project/gnc/rlp"
+	"github.com/gnc-project/gnc/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

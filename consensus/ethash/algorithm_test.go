@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/hexutil"
+	"github.com/gnc-project/gnc/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

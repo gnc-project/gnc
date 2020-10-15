@@ -27,16 +27,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/gnc-project/gnc/accounts"
+	"github.com/gnc-project/gnc/accounts/keystore"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/hexutil"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/internal/ethapi"
+	"github.com/gnc-project/gnc/rlp"
+	"github.com/gnc-project/gnc/signer/core"
+	"github.com/gnc-project/gnc/signer/fourbyte"
+	"github.com/gnc-project/gnc/signer/storage"
 )
 
 //Used for testing

@@ -21,16 +21,16 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core"
+	"github.com/gnc-project/gnc"
+	"github.com/gnc-project/gnc/accounts"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/hexutil"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/event"
+	"github.com/gnc-project/gnc/internal/ethapi"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/rpc"
+	"github.com/gnc-project/gnc/signer/core"
 )
 
 type ExternalBackend struct {

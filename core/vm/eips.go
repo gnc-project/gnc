@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/params"
 )
 
 // EnableEIP enables the given EIP on the config.

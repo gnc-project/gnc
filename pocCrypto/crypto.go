@@ -3,7 +3,7 @@ package crypto
 import (
 	"crypto/sha256"
 	"math/big"
-	"github.com/ethereum/go-ethereum/pocCrypto/curve25519"
+	"github.com/gnc-project/gnc/pocCrypto/curve25519"
 )
 
 

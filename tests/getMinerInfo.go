@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"context"
     "log"
-    "github.com/ethereum/go-ethereum/ethclient"
+    "github.com/gnc-project/gnc/ethclient"
 )
 
 func MinerInfoAt() {

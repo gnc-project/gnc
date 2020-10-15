@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/accounts"
+	"github.com/gnc-project/gnc/accounts/keystore"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/eth"
+	"github.com/gnc-project/gnc/eth/downloader"
+	"github.com/gnc-project/gnc/ethclient"
+	"github.com/gnc-project/gnc/ethstats"
+	"github.com/gnc-project/gnc/les"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/node"
+	"github.com/gnc-project/gnc/p2p"
+	"github.com/gnc-project/gnc/p2p/discv5"
+	"github.com/gnc-project/gnc/p2p/enode"
+	"github.com/gnc-project/gnc/p2p/nat"
+	"github.com/gnc-project/gnc/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -462,7 +462,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/gnc-project/gnc/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

@@ -9,7 +9,7 @@ import (
 	"crypto/sha256"
 	"errors"
 	"io"
-	"github.com/ethereum/go-ethereum/pocCrypto/curve25519"
+	"github.com/gnc-project/gnc/pocCrypto/curve25519"
 )
 
 var (

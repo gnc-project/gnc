@@ -21,12 +21,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/core/forkid"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/event"
+	"github.com/gnc-project/gnc/rlp"
 )
 
 // Constants to match up protocol versions and messages

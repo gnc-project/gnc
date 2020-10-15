@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/mclock"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/log"
 )
 
 // insertStats tracks and reports on block insertion.

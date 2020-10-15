@@ -29,17 +29,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/mclock"
+	"github.com/gnc-project/gnc/crypto"
+	"github.com/gnc-project/gnc/event"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/p2p/discover"
+	"github.com/gnc-project/gnc/p2p/discv5"
+	"github.com/gnc-project/gnc/p2p/enode"
+	"github.com/gnc-project/gnc/p2p/enr"
+	"github.com/gnc-project/gnc/p2p/nat"
+	"github.com/gnc-project/gnc/p2p/netutil"
 )
 
 const (

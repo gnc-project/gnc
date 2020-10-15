@@ -6,7 +6,7 @@ import(
 	"context"
     "log"
     "math/big"
-    "github.com/ethereum/go-ethereum/ethclient"
+    "github.com/gnc-project/gnc/ethclient"
 )
 
 

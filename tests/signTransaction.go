@@ -6,10 +6,10 @@ import (
     "fmt"
     "log"
     "math/big"
-    "github.com/ethereum/go-ethereum/common"
-    "github.com/ethereum/go-ethereum/core/types"
-    "github.com/ethereum/go-ethereum/crypto"
-    "github.com/ethereum/go-ethereum/ethclient"
+    "github.com/gnc-project/gnc/common"
+    "github.com/gnc-project/gnc/core/types"
+    "github.com/gnc-project/gnc/crypto"
+    "github.com/gnc-project/gnc/ethclient"
 )
 
 func main() {

@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core/state"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/crypto"
+	"github.com/gnc-project/gnc/ethdb"
+	"github.com/gnc-project/gnc/trie"
 )
 
 func NewState(ctx context.Context, head *types.Header, odr OdrBackend) *state.StateDB {

@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/gnc-project/gnc/common/math"
+	"github.com/gnc-project/gnc/core/vm"
 )
 
 // Compiler contains information about the parsed source

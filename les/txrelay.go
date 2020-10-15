@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/rlp"
 )
 
 type ltrInfo struct {

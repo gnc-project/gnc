@@ -26,14 +26,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gnc-project/gnc/accounts"
+	"github.com/gnc-project/gnc/core/rawdb"
+	"github.com/gnc-project/gnc/ethdb"
+	"github.com/gnc-project/gnc/event"
+	"github.com/gnc-project/gnc/internal/debug"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/p2p"
+	"github.com/gnc-project/gnc/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/common/math"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/params"
 )
 
 type diffTest struct {

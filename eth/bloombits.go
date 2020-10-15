@@ -20,13 +20,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/bitutil"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/core/bloombits"
+	"github.com/gnc-project/gnc/core/rawdb"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/ethdb"
 )
 
 const (

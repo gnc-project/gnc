@@ -7,9 +7,9 @@ import (
 	"encoding/hex"
 	"errors"
 	"math/big"
-	"github.com/ethereum/go-ethereum/common/constants"
-	"github.com/ethereum/go-ethereum/pocCrypto"
-	"github.com/ethereum/go-ethereum/pocCrypto/shabal256"
+	"github.com/gnc-project/gnc/common/constants"
+	"github.com/gnc-project/gnc/pocCrypto"
+	"github.com/gnc-project/gnc/pocCrypto/shabal256"
 	"time"
 )
 

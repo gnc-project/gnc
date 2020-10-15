@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/gnc-project/gnc/internal/ethapi"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/signer/core"
+	"github.com/gnc-project/gnc/signer/rules/deps"
+	"github.com/gnc-project/gnc/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

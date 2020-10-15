@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/event"
 )
 
 // Config contains the settings of the global account manager.
