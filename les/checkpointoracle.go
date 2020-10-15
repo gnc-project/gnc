@@ -20,12 +20,12 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/accounts/abi/bind"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/contracts/checkpointoracle"
+	"github.com/gnc-project/gnc/crypto"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/params"
 )
 
 // checkpointOracle is responsible for offering the latest stable checkpoint

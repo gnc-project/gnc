@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/gnc-project/gnc/accounts/abi"
+	"github.com/gnc-project/gnc/accounts/abi/bind"
+	"github.com/gnc-project/gnc/accounts/keystore"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/crypto"
 )
 
 // Signer is an interface defining the callback when a contract requires a

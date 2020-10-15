@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/gnc-project/gnc/accounts"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/hexutil"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/internal/ethapi"
+	"github.com/gnc-project/gnc/signer/core"
+	"github.com/gnc-project/gnc/signer/storage"
 )
 
 const JS = `

@@ -5,8 +5,8 @@ import (
     "fmt"
 	"os"
 	"context"
-    "github.com/ethereum/go-ethereum/ethclient"
-    "github.com/ethereum/go-ethereum/common"
+    "github.com/gnc-project/gnc/ethclient"
+    "github.com/gnc-project/gnc/common"
 )
 func test(){
 

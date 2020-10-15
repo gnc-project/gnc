@@ -25,12 +25,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/signer/core"
+	"github.com/gnc-project/gnc/accounts/keystore"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/hexutil"
+	"github.com/gnc-project/gnc/common/math"
+	"github.com/gnc-project/gnc/crypto"
+	"github.com/gnc-project/gnc/signer/core"
 )
 
 var typesStandard = core.Types{

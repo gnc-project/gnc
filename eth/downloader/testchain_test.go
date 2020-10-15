@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/consensus/ethash"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/core/rawdb"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/crypto"
+	"github.com/gnc-project/gnc/params"
 )
 
 // Test chain parameters.

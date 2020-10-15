@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/gnc-project/gnc/crypto"
 )
 
 // Ensure the KDF generates appropriately sized keys.

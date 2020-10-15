@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/consensus/ethash"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/eth/downloader"
+	"github.com/gnc-project/gnc/eth/gasprice"
+	"github.com/gnc-project/gnc/miner"
+	"github.com/gnc-project/gnc/params"
 )
 
 // MarshalTOML marshals as TOML.

@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/eth/downloader"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/p2p/enode"
 )
 
 const (

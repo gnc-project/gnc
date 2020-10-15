@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	math2 "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/hexutil"
+	math2 "github.com/gnc-project/gnc/common/math"
+	"github.com/gnc-project/gnc/consensus/ethash"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

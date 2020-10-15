@@ -3,12 +3,12 @@ package core
 import (
 	"github.com/orcaman/concurrent-map"
 	"math/big"
-	"github.com/ethereum/go-ethereum/pocCrypto/hashid"
+	"github.com/gnc-project/gnc/pocCrypto/hashid"
 	// "time"
-	"github.com/ethereum/go-ethereum/services"
-	// "github.com/ethereum/go-ethereum/consensus"
+	"github.com/gnc-project/gnc/services"
+	// "github.com/gnc-project/gnc/consensus"
 	// "encoding/hex"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/gnc-project/gnc/core/types"
 
 )
 

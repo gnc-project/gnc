@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	ethereum "github.com/gnc-project/gnc"
+	"github.com/gnc-project/gnc/accounts/abi/bind"
+	"github.com/gnc-project/gnc/accounts/abi/bind/backends"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/crypto"
 )
 
 func TestSimulatedBackend(t *testing.T) {

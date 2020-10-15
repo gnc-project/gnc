@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/gnc-project/gnc"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/core/rawdb"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/event"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

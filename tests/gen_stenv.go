@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

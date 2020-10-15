@@ -20,11 +20,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gnc-project/gnc/common/mclock"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/ethdb"
+	"github.com/gnc-project/gnc/light"
+	"github.com/gnc-project/gnc/log"
 )
 
 // LesOdr implements light.OdrBackend

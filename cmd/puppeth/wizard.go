@@ -31,9 +31,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/core"
+	"github.com/gnc-project/gnc/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

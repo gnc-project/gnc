@@ -22,12 +22,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
-	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/math"
+	"github.com/gnc-project/gnc/crypto"
+	"github.com/gnc-project/gnc/crypto/blake2b"
+	"github.com/gnc-project/gnc/crypto/bn256"
+	"github.com/gnc-project/gnc/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

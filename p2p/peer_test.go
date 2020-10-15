@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/gnc-project/gnc/log"
 )
 
 var discard = Protocol{

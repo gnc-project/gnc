@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gnc-project/gnc/common"
+	"github.com/gnc-project/gnc/common/prque"
+	"github.com/gnc-project/gnc/core/state"
+	"github.com/gnc-project/gnc/core/types"
+	"github.com/gnc-project/gnc/event"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/metrics"
+	"github.com/gnc-project/gnc/params"
 )
 
 const (

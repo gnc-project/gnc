@@ -23,13 +23,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/gnc-project/gnc/event"
+	"github.com/gnc-project/gnc/log"
+	"github.com/gnc-project/gnc/node"
+	"github.com/gnc-project/gnc/p2p"
+	"github.com/gnc-project/gnc/p2p/enode"
+	"github.com/gnc-project/gnc/p2p/simulations/pipes"
+	"github.com/gnc-project/gnc/rpc"
 	"github.com/gorilla/websocket"
 )
 
