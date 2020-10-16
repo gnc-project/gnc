@@ -7,7 +7,9 @@ You can download the source code and compile it yourself, or download the binary
 ### how to compile
 
 mkdir /home/gnccode
+
 cd /home/gnccode
+
 download : git clone https://github.com/gnc-project/gnc
 
 1: cd /home/gnccode/gnc && make all
