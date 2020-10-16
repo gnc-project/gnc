@@ -6,15 +6,19 @@ You can download the source code and compile it yourself, or download the binary
 
 ### how to compile
 
-1: cd ./gnc && make all
+mkdir /home/gnccode
+cd /home/gnccode
+download : git clone https://github.com/gnc-project/gnc
 
-2: makedir /home/gnc 
+1: cd /home/gnccode/gnc && make all
 
-3: cd ./gnc/bulid/bin && mv gnc /home/gnc
+2: mkdir /home/gncnode 
 
-4: cd ./gnc && mv gnc.json /home/gnc
+3: cd /home/gnccode/gnc/bulid/bin && mv gnc /home/gncnode
 
-4: cd /home/gnc && ./gnc --datadir data init ./gnc.json
+4: cd /home/gnccode/gnc && mv gnc.json /home/gncnode
+
+4: cd /home/gncnode && ./gnc --datadir data init ./gnc.json
 
 4: nohup ./gnc  --syncmode 'full' --cache 256 --datadir data --rpc  --rpcaddr 0.0.0.0 --rpcapi 'net,db,eth,web3,txpool' --rpcport 8545 --port 30303 --rpccorsdomain "*"  --rpcvhosts "*" --allow-insecure-unlock --networkid 37021 --ws --wsaddr 0.0.0.0 --wsport "8560" --wsapi "net,db,eth,web3,txpool" --bootnodes "enode://d01987c09dc1149c7da115c8e9335b531716510fce9a0dec74d226a8a6d582cbbf8e455400e5c446359bee7e92341a0a62f69004474b20e9fcac302bed478c32@47.75.203.235:30303" --wsorigins "*" >data/gnc.log 2>&1 &
 
