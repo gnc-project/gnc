@@ -14,11 +14,9 @@ download : git clone https://github.com/gnc-project/gnc
 
 1: cd /home/gnccode/gnc && make all
 
-2: mkdir /home/gncnode 
+2: cd /home/gnccode/gnc/bulid/bin && mv gnc /home/gncnode
 
-3: cd /home/gnccode/gnc/bulid/bin && mv gnc /home/gncnode
-
-4: cd /home/gnccode/gnc && mv gnc.json /home/gncnode
+3: cd /home/gnccode/gnc && mv gnc.json /home/gncnode
 
 4: cd /home/gncnode && ./gnc --datadir data init ./gnc.json
 

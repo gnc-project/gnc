@@ -341,11 +341,14 @@ func GenesisBlockForTesting(db ethdb.Database, addr common.Address, balance *big
 func DefaultGenesisBlock() *Genesis {
 	return &Genesis{
 		Config:     params.MainnetChainConfig,
-		Nonce:      66,
-		ExtraData:  hexutil.MustDecode("0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa"),
-		GasLimit:   5000,
-		Difficulty: big.NewInt(17179869184),
+		Nonce:      0x0,
+		ExtraData:  hexutil.MustDecode("0x0000000000000000000000000000000000000000000000000000000000000000"),
+		GasLimit:   0x47b760,
+		Difficulty: big.NewInt(0xb60b60b60),
 		Alloc:      decodePrealloc(mainnetAllocData),
+		Coinbase: common.HexToAddress("GNC2ba50f4b463930fdbb7c647878f3ada5fa1b36bf"),
+		TheFates: common.HexToAddress("GNC378555a3558bad1bb43282e5554d9c0cf5ca3126"),
+		Timestamp:  1600135200,
 	}
 }
 
